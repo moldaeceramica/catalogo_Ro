@@ -48,14 +48,10 @@
 
         .logo {
             font-size: 1.8rem;
-            font-weight: 700;
+            font-weight: 500;
             color: var(--cor-primaria);
             letter-spacing: 2px;
-        }
-
-        .logo em {
             font-style: italic;
-            font-weight: 500;
         }
 
         .navegacao a {
@@ -202,9 +198,10 @@
             margin: 0 auto;
         }
 
-        .rodape-conteudo h3 em {
+        .rodape-nome {
             font-style: italic;
-            font-weight: 500;
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
         }
 
         @media (max-width: 768px) {
@@ -229,7 +226,7 @@
 <body>
     <header>
         <div class="cabecalho-conteudo">
-            <div class="logo"><em>Neuza Petti</em></div>
+            <div class="logo">Neuza Petti</div>
             <nav class="navegacao">
                 <a href="#inicio">Início</a>
                 <a href="#catalogo">Catálogo</a>
@@ -313,10 +310,10 @@
 
     <footer id="contato">
         <div class="rodape-conteudo">
-            <h3><em>Neuza Petti</em></h3>
+            <h3 class="rodape-nome">Neuza Petti</h3>
             <p style="margin: 1rem 0 0.5rem;">São José dos Campos — SP</p>
             <p style="margin-bottom: 1rem;">contato@seuemail.com.br</p>
-            <p style="opacity: 0.6; font-size: 0.9rem;">© 2026 <em>Neuza Petti</em> — Todos os direitos reservados</p>
+            <p style="opacity: 0.6; font-size: 0.9rem;">© 2026 Neuza Petti — Todos os direitos reservados</p>
         </div>
     </footer>
 
